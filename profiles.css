@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: #002334;
+    background: linear-gradient(rgba(0, 255, 229, 0.25), rgba(255, 174, 0, 0.25)),
+    url("backgrounds/profiles-bg.jpg"),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent),
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.index-link, .profile-link {
+    text-align: center;
+    color: #00e5ff;
+    font-size: 30px;
+    font-family: Petit Formal Script;
+}
+
+a:visited {
+    color: #00535c;
+}
+
+hr {
+    border: none;
+    height: 97px;
+
+    background-image:url("backgrounds/divider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    /*(TEMP) filter: sepia(100%) hue-rotate(180deg) saturate(300%);*/
+}
+
+h1 {
+    text-align: center;
+    color: #00e5ff;
+    font-family: Petit Formal Script;
+    
+    background: linear-gradient(rgb(0, 73, 112), rgb(0, 21, 80));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    text-align: center;
+    color: #00e5ff;
+    font-family: Petit Formal Script;
+    
+    background: linear-gradient(rgb(0, 73, 112), rgb(0, 21, 80));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    text-align: center;
+    color: #00e5ff;
+    font-family: Quintessential;
+    
+    background: linear-gradient(rgb(0, 73, 112), rgb(0, 21, 80));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

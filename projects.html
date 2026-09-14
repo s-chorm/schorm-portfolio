@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quintessential&display=swap" rel="stylesheet">
+    <title>My Portfolio - Projects</title>
+</head>
+<body>
+    <hr>
+    <header>
+        <h1>Projects</h1>
+    </header>
+    <hr>
+    <p>
+        Dates of when each project was first created are included in each link.
+    </p>
+    <br>
+    <div class="project-link">
+        <a href="https://arakyrieak.w3spaces.com" target="_blank">AK'S TERRITORY OUTDATED (2020)</a>
+        <br>
+        <a href="https://arakyrieaf.w3spaces.com" target="_blank">AK'S TERRITORY (2023)</a>
+    </div>
+    <br>
+    <div class="index-link">
+        <a href="index.html">Back to Main Page (Click Link)</a>
+    </div>
+
+    <div id="footer"></div>
+    <script>
+        fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+</body>

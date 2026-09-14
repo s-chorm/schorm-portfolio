@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="profiles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quintessential&display=swap" rel="stylesheet">
+    <title>My Portfolio - Profiles</title>
+</head>
+<body>
+    <hr>
+    <header>
+        <h1>Profiles</h1>
+    </header>
+    <hr>
+    <p>
+        All professional profiles are listed below.
+    </p>
+    <br>
+    <div class="profile-link">
+        <a href="https://www.linkedin.com/in/samantha-chorm-7b54333a9/" target="_blank">LinkedIn</a>
+    </div>
+    <br>
+    <div class="index-link">
+        <a href="index.html">Back to Main Page (Click Link)</a>
+    </div>
+
+    <div id="footer"></div>
+    <script>
+        fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+</body>

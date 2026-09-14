@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quintessential&display=swap" rel="stylesheet">
+    <title>My Portfolio - Main</title>
+</head>
+<body>
+    <hr>
+    <header>
+        <h1>Welcome to Samantha Chorm's Portfolio</h1>
+    </header>
+    <hr>
+    <p>
+        Currently working with HTML/CSS/JS and C++, I enjoy making and designing creative websites. Programmed for 4 years. <br>This contains my projects and contact information, as well as a few things I've worked on for fun.
+    </p>
+    <br>
+    <div class="index-link">
+        <a href="projects.html">Projects</a>
+        <a href="profiles.html">Profiles</a>
+    </div>
+
+    <div id="footer"></div>
+    <script>
+        fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+</body>
