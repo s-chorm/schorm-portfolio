@@ -40,6 +40,7 @@ h1 {
     text-align: center;
     color: #00e5ff;
     font-family: Petit Formal Script;
+    font-size: 70px;
     
     background: linear-gradient(rgb(0, 73, 112), rgb(0, 21, 80));
     background-clip: text;
@@ -51,6 +52,7 @@ h2 {
     text-align: center;
     color: #00e5ff;
     font-family: Petit Formal Script;
+    font-size: 40px;
     
     background: linear-gradient(rgb(0, 73, 112), rgb(0, 21, 80));
     background-clip: text;
